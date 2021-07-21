@@ -7,7 +7,7 @@ document.querySelector('.busca').addEventListener('submit', async (event) =>{
     clearInfo();
     showWarning('Buscando...');
 
-    let url = ``;
+    let url = `api key`;
     let results = await fetch(url);
     let resultsJson = await results.json();
 
