@@ -46,7 +46,7 @@ function draw(x, y) {
   let pointX = x - screen.offsetLeft;
   let pointY = y - screen.offsetTop;
 
-  // desenhar
+  // Draw
   ctx.beginPath();
   ctx.lineWidth = 5;
   ctx.lineJoin = "round";
@@ -63,5 +63,4 @@ function draw(x, y) {
 function clearScreen() {
   ctx.setTransform(1, 0, 0, 1, 0, 0);
   ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
-
 }
